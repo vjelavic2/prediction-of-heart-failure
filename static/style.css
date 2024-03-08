@@ -1,0 +1,227 @@
+.body1 {
+    background-color: white;
+    color: rgb(10, 10, 10);
+    background-image: url("Slika4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.body1 h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3em;
+    padding-bottom: 5%;
+    background-color: rgba(184, 183, 216, 0.5);
+}
+
+.btn1 {
+    text-decoration: none;
+    background-color: rgb(174, 0, 0);
+    color: white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 8px;
+    margin-left: 40%;
+}
+
+.btn2 {
+    text-decoration: none;
+    background-color: rgb(174, 0, 0);
+    color: white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.body2 {
+    background-color: rgba(233, 233, 249, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.bodyPlot1 {
+    background-color: rgba(233, 233, 249, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(174, 0, 0);
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    margin-top: 70%;
+    margin-left: -5%;
+    box-shadow: 0px 0px 15px rgba(12, 0, 144, 0.865);
+}
+
+.bodyPlot1 {
+    background-color: rgba(233, 233, 249, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(174, 0, 0);
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    margin-top: 70%;
+    margin-left: -5%;
+    box-shadow: 0px 0px 15px rgba(12, 0, 144, 0.865);
+    height: 57%;
+}
+
+.plt {
+    margin-left: 10%;
+    grid-column: 2;
+    justify-content: space-between;
+}
+
+
+.btn3 {
+    color: white;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 12% 12%;
+    border: 1px solid rgba(255, 255, 255, 0.514);
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.body2 h1 {
+    text-align: center;
+    margin-top: -20%;
+    grid-column: 2;
+    background-color: rgba(184, 183, 216, 0.5);
+    margin-left: -30%;
+    padding-top: 5%;
+    padding-left: 15%;
+    height: 30%;
+}
+
+.labels {
+    margin-left: 10%;
+    grid-column: 2;
+    margin-top: -25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.labels input {
+    margin: 1% 1% 1% 1%;
+}
+
+.submit-btn {
+    text-decoration: none;
+    background-color: rgb(174, 0, 0);
+    color: white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 8px;
+    margin-left: 3%;
+    height: 10%;
+    margin-top: 9%;
+    border: 1px solid rgb(174, 0, 0);
+}
+
+input {
+    border: 2px solid rgb(174, 0, 0);
+}
+
+.result {
+    background: transparent;
+    border: 6px solid rgb(174, 0, 0);
+    border-radius: 8px;
+    grid-column: 2;
+    margin-left: 17%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: -25%;
+    text-align: center;
+    color: rgb(45, 45, 45);
+    box-shadow: 0px 0px 15px rgba(144, 0, 0, 0.865);
+}
+
+.btn4 {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(174, 0, 0);
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 8px;
+    width: 5%;
+    height: 9%;
+    text-align: center;
+    font-weight: 800;
+    margin-left: 92%;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border: 4px solid rgb(174, 0, 0);
+    border-radius: 8px;
+    padding-left: 8%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    box-shadow: 0px 0px 15px rgb(174, 0, 0);
+}
+
+.body3 {
+    background-color: rgba(184, 183, 216, 0.5);
+}
+
+.sbm {
+    padding: 2% 3% 2% 3%;
+    background-color: rgb(174, 0, 0);
+    color: white;
+    border: 1px solid rgb(174, 0, 0);
+    margin-left: 20%;
+    border-radius: 8px;
+}
+
+.body3 span {
+    font-weight: 800;
+    color: rgb(174, 0, 0);
+}
+
+.btn4 {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(174, 0, 0);
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 8px;
+    width: 5%;
+    height: 9%;
+    text-align: center;
+    font-weight: 800;
+    margin-left: 92%;
+}
+
+
+
+.plotTitle {
+    text-align: center;
+    margin-top: -1%;
+    font-size: 2em;
+    padding: 20px;
+    background-color: rgba(184, 183, 216, 0.5);
+    color: rgb(174, 0, 0);
+    margin-left: -30%;
+}
+
+img {
+    max-width: 100%;
+    /* Ograničavanje širine slike na 100% širine roditeljskog elementa */
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body class="body2">
+    <a href="index.html" class="btn4">LOGOUT</a>
+    <h1 class="naslov">Enter your data and test possibility of heart failure</h1>
+    <form action="/predict" method="POST">
+        <div class="labels">
+            <div class="column">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age">
+            <label for="sex">Sex:</label>
+            <input type="text" id="sex" name="sex">
+            <label for="restingBP">Resting BP:</label>
+            <input type="text" id="restingBP" name="restingBP"><br>
+            </div>
+            <div class="column">
+            <label for="chestPainType">Chest Pain Type:</label>
+            <input type="text" id="chestPainType" name="chestPainType">
+            <label for="cholesterol">Cholesterol:</label>
+            <input type="text" id="cholesterol" name="cholesterol">
+            <label for="fastingBS">Fasting Blood Sugar:</label>
+            <input type="text" id="fastingBS" name="fastingBS"><br>
+            </div>
+            <div class="column">
+            <label for="restingECG">Resting ECG:</label>
+            <input type="text" id="restingECG" name="restingECG">
+            <label for="maxHR">Max Heart Rate:</label>
+            <input type="text" id="maxHR" name="maxHR">
+            <label for="exerciseAngina">Exercise-Induced Angina:</label>
+            <input type="text" id="exerciseAngina" name="exerciseAngina"><br>
+            </div>
+            <div class="column">
+            <label for="oldpeak">Oldpeak:</label>
+            <input type="text" id="oldpeak" name="oldpeak"><br>
+            <label for="stSlope">ST Slope:</label>
+            <input type="text" id="stSlope" name="stSlope">
+            </div>
+            <button type="submit" class="submit-btn">CALCULATE</button>
+        </div>
+    </form>
+
+    <div class="result">
+    {% if prediction %}
+        <h2>Prediction:</h2>
+        <p>{{ prediction }}</p>
+        {% endif %}
+    </div>
+
+    <div class="sidebar">
+        <a href="#" class="btn3">TEST</a>
+        <a href="/plot" class="btn3">Review statistics by age</a>
+        <a href="/plot2" class="btn3">Review statistics by sex</a>
+        <a href="/plot3" class="btn3">Review statistics by cholesterol</a>
+    </div>
+
+
+</body>
+
+</html>

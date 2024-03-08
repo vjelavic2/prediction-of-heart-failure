@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graf</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body class="bodyPlot1">
+    <h1 class="plotTitle">The graph depicting the relationship between age and heart disease.</h1>
+
+   
+    <div class="plt">
+        <form action="/plot" method="post">
+            <label for="age">Enter your age:</label>
+            <input type="text" id="age" name="age">
+            <button type="submit">Show</button>
+        </form>
+        <img src="{{ graph }}" alt="Graph">
+    </div>
+    <div class="sidebar2">
+        <a href="#" class="btn3">TEST</a>
+        <a href="/plot" class="btn3">Review statistics by age</a>
+        <a href="/plot2" class="btn3">Review statistics by sex</a>
+        <a href="/plot3" class="btn3">Review statistics by cholesterol</a>
+    </div>
+</body>
+
+</html>
